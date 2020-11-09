@@ -23,3 +23,7 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 ## Markdown
 * VscodeのMarkdownをPDFに変換する時に数式をちゃんと表示させる方法
     * https://qiita.com/1gy/items/5b1f3c772b6da43cc13e
+
+## ssh接続
+* 接続が切れるまでの制限時間を延ばしたい
+    * ~/.ssh/configの時間を延ばしたいHostのところに次を追記．<br>ServerAliveInterval 60
