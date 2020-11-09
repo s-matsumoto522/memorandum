@@ -15,3 +15,11 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 
 ## 材料力学
 
+## Github
+### 便利なコマンド
+* 戻したいとき
+    * https://qiita.com/rch1223/items/9377446c3d010d91399b
+
+## Markdown
+* VscodeのMarkdownをPDFに変換する時に数式をちゃんと表示させる方法
+    * https://qiita.com/1gy/items/5b1f3c772b6da43cc13e
