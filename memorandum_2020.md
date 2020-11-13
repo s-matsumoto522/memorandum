@@ -15,15 +15,23 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 
 ## 材料力学
 
+## Fortran
+* ディレクトリ作成方法．次の記事の3つ目のサブルーチンをコピペ．
+    * https://qiita.com/aisha/items/c41c09b0587ba6503733
+* コンパイラをgfortranからifortに変えると速くなる．次の記事を参考にIntelのコンパイラ（ifort）をインストールした．（岩下）
+    * https://qiita.com/minwinmin/items/afbb0404533fd4b07e72 
+
 ## Github
 ### 便利なコマンド
-* 戻したいとき
+* 戻したいとき．
     * https://qiita.com/rch1223/items/9377446c3d010d91399b
 
 ## Markdown
-* VscodeのMarkdownをPDFに変換する時に数式をちゃんと表示させる方法
+* VscodeのMarkdownをPDFに変換する時に数式をちゃんと表示させる方法．
     * https://qiita.com/1gy/items/5b1f3c772b6da43cc13e
 
 ## ssh接続
-* 接続が切れるまでの制限時間を延ばしたい
+* 接続が切れるまでの制限時間を延ばしたい．
     * ~/.ssh/configの時間を延ばしたいHostのところに次を追記．<br>ServerAliveInterval 60
+* パスフレーズを省略したいときは，ssh-add [秘密鍵のパス]が便利．
+    * https://qiita.com/Yarimizu14/items/6a4bab703d67ea766ddc
