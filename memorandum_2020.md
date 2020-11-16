@@ -33,5 +33,14 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 ## ssh接続
 * 接続が切れるまでの制限時間を延ばしたい．
     * ~/.ssh/configの時間を延ばしたいHostのところに次を追記．<br>ServerAliveInterval 60
-* パスフレーズを省略したいときは，ssh-add [秘密鍵のパス]が便利．
+* パスフレーズを省略したいとき．
+    * 「ssh-add [秘密鍵のパス]」が便利．
     * https://qiita.com/Yarimizu14/items/6a4bab703d67ea766ddc
+
+## Vim
+* コマンドまとめ
+    * https://qiita.com/hide/items/5bfe5b322872c61a6896
+    * https://qiita.com/ktoyod/items/0a8491cdb6c0191ab0cc
+* Vimのカラースキームを変える．
+    * デフォルトのカラー（特に青）は見づらいので，カラースキームをmolokaiにするのが簡単なのでおすすめ．
+    * http://pyoonn.hatenablog.com/entry/2014/10/04/225321
