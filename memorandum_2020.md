@@ -46,7 +46,24 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
     * http://pyoonn.hatenablog.com/entry/2014/10/04/225321
 ## 研究室サーバー
 * 使用量確認コマンド
-    * 各領域の使用量確認→`df -h`
-    * 自分の使用量確認→`du -hs`
+    * 各領域の使用量確認→`df -h`  
+        https://www.atmarkit.co.jp/ait/articles/1610/24/news017.html
+    * 自分の使用量確認→`du -hs`  
+        https://webkaru.net/linux/du-command/
 * 連番ファイルを一括で削除する方法(例えば, 標準出力ファイルやエラーファイル)
     * `rm -rf hoge.o{12345..97654}`(中カッコ内の数字は連番の最初と最後に合わせる)
+
+## Slack
+* テキストメッセージの編集コマンド
+    * Markdownとほとんど同じ．
+        `code bloc` （`で囲む）
+        ```
+        code （```で行を挟む）
+        ```
+        >quotation （>に続けて入力）
+
+        _italic_ （_で囲む）  
+        **bold** （*で囲む）  
+        ~~strike~~ （~で囲む）  
+* Slack小技集  
+        https://businesschatmaster.com/slack/advanced_skill_slack#Markdown
