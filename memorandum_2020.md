@@ -21,6 +21,19 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 * コンパイラをgfortranからifortに変えると速くなる．次の記事を参考にIntelのコンパイラ（ifort）をインストールした．（岩下）
     * https://qiita.com/minwinmin/items/afbb0404533fd4b07e72 
 
+## ターミナル
+### Terminator
+* 分割できたりするので便利．インストールは`sudo apt install terminator`．
+* Ubuntuの場合，`Ctrl`+`Alt`+`T`で起動する．デフォルトのターミナルからは`terminator`で起動できる．
+* ショートカットキー一覧
+    * https://qiita.com/genchi-jin/items/cf7b81d8d9ecdb69b64a
+    * 上の記事にないもの．
+        * 左のタブ`Ctrl`+`Page Up`
+        * 右のタブ`Ctrl`+`Page Down`
+### Windows Terminal
+* Windowsの場合はWindows Terminalの方が相性がいいかもしれない．（Terminatorも一応使えるがたまに不具合があったりした．）
+    * Microsoft Storeからインストールできる．
+
 ## Github
 ### 便利なコマンド
 * 戻したいとき．
