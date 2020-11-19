@@ -35,7 +35,7 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
     * ~/.ssh/configの時間を延ばしたいHostのところに次を追記．<br>ServerAliveInterval 60
 * パスフレーズを省略したいとき．
     * 「ssh-add [秘密鍵のパス]」が便利．
-    * https://qiita.com/Yarimizu14/items/6a4bab703d67ea766ddc
+        https://qiita.com/Yarimizu14/items/6a4bab703d67ea766ddc
 
 ## Vim
 * コマンドまとめ
@@ -55,8 +55,8 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 
 ## Slack
 * テキストメッセージの編集コマンド
-    * Markdownとほとんど同じ．
-        `code bloc` （`で囲む）
+    * Markdownとほとんど同じ．<br>
+        `code block` （`で囲む）
         ```
         code （```で行を挟む）
         ```
