@@ -22,6 +22,11 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
     * https://qiita.com/minwinmin/items/afbb0404533fd4b07e72 
 
 ## ターミナル
+### コマンド
+* コマンド履歴から検索して実行．（`Ctrl`+`R`）
+    * `Ctrl`+`R`をしてから，検索したいコマンドを入力すると最新の履歴が表示される．`Enter`で実行，`→`または`←`でコマンドを編集できる．
+    * あるいは，検索したいコマンドを入力してから`Ctrl`+`R`を押していくとコマンド履歴を遡れる．
+    * https://qiita.com/quwa/items/3a23c9dbe510e3e0f58e
 ### Terminator
 * 分割できたりするので便利．インストールは`sudo apt install terminator`．
 * Ubuntuの場合，`Ctrl`+`Alt`+`T`で起動する．デフォルトのターミナルからは`terminator`で起動できる．
@@ -80,3 +85,7 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
         ~~strike~~ （~で囲む）  
 * Slack小技集  
         https://businesschatmaster.com/slack/advanced_skill_slack#Markdown
+
+## Ubuntu
+* コピー・移動・リンク作成
+    * `Alt`を押しながらドラッグ&ドロップで選択肢が表示される．
