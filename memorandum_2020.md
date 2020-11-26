@@ -19,7 +19,9 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 * ディレクトリ作成方法．次の記事の3つ目のサブルーチンをコピペ．
     * https://qiita.com/aisha/items/c41c09b0587ba6503733
 * コンパイラをgfortranからifortに変えると速くなる．次の記事を参考にIntelのコンパイラ（ifort）をインストールした．（岩下）
+    * Ubuntu 20.04には未対応．（2020年9月現在）
     * https://qiita.com/minwinmin/items/afbb0404533fd4b07e72 
+    * 研究室サーバーにはインストールされている．
 
 ## ターミナル
 ### コマンド
