@@ -77,11 +77,12 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 * テキストメッセージの編集コマンド
     * Markdownとほとんど同じ．<br>
         `code block` （`で囲む）
+        
         ```
         code （```で行を挟む）
         ```
         >quotation （>に続けて入力）
-
+        
         _italic_ （_で囲む）  
         **bold** （*で囲む）  
         ~~strike~~ （~で囲む）  
@@ -104,3 +105,26 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
 
 * 例: 後藤研サーバーの`hoge`に東大の`fuga`というディレクトリを転送したい場合（どちらのディレクトリもホームにあると仮定）
     * `scp -r -3 ofp.jcahpc.jp:fuga 192.168.1.11:~hoge`
+
+
+
+## Python
+
+### カラーマップの構成色を自作する方法
+
+- もっとうまいやり方はありそうやけど、とりあえず以下のように書けばできました。<br/>
+
+  ```
+  import matplotlib.colors as mcolors
+  
+  cm = mcolors.LinearSegmentedColormap.from_list('name', ['blue', 'white', 'gold'])
+  ```
+
+  色を指定する配列は16進数でも大丈夫みたいです。あとは、実際にカラーマップを作成するときに<br/>
+
+  ```
+  cmap = cm
+  ```
+
+  としておくだけ。
+
