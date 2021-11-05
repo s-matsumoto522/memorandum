@@ -47,8 +47,11 @@ $$u_{x} = v_{y},~~~v_{x} = -u_{y}$$
     * https://qiita.com/rch1223/items/9377446c3d010d91399b
 
 ## Markdown
-* VscodeのMarkdownをPDFに変換する時に数式をちゃんと表示させる方法．
+* VScodeのMarkdownをPDFに変換する時に数式をちゃんと表示させる方法．
     * https://qiita.com/1gy/items/5b1f3c772b6da43cc13e
+* WindowsでMarkdownをpdf化したときに数式がうまく変換されないとき
+    * http://yamaken.tokyo/2019/03/17/post-97/  
+    この「数式を使う」の章を参考にして、.mdファイル内に呪文を書き込む。
 
 ## ssh接続
 * 接続が切れるまでの制限時間を延ばしたい．
